@@ -1,0 +1,181 @@
+/***** BASE STYLES *****/
+/**font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;**/
+
+#wrapper {
+  width: 1000px;
+  border: 2px solid lightgrey;
+  margin: 100px auto;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#logo {
+}
+
+#logo img {
+  width: 200px;
+  height: auto;
+  display: inline-block;
+  margin: 100px 0 0 200px;
+  float: left;
+}
+
+#title {
+  margin: 125px 0 0 50px;
+  float: left;
+}
+
+#title h1{
+  font-weight: 400;
+  font-size: 40px;
+}
+
+#title h3{
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  line-height: 0;
+}
+
+#location {
+  width: 1000px;
+  float: right;
+  padding: 50px 25px 0 0;
+}
+
+#location li {
+  display: inline-block;
+  text-transform: uppercase;
+  color: grey;
+  padding-left:150px;
+}
+
+#nav {
+  float: right;
+  padding: 0 180px;
+  border-bottom: 2px solid gray;
+  margin: auto;
+}
+
+#nav li {
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+#nav li a {
+  text-decoration: none;
+  color: darkgreen;
+  padding-left: 50px;
+}
+
+
+#hero {
+  width: 800px;
+  clear: both;
+  margin: auto;
+  padding: 50px 0 0 0;
+}
+
+#hero img{
+  width: 800px;
+  height: 400px;
+  position: relative;
+  opacity: .5;
+}
+
+#hero h1 {
+  color: darkgreen;
+  font-weight: 400;
+  text-align: center;
+  font-size: 50px;
+  line-height: 8px;
+  text-transform: uppercase;
+  position: absolute;
+  top:700px;
+  bottom: 0;
+  right:0;
+  left: 0;
+  z-index: 1;
+}
+
+#about {
+  margin: auto;
+  padding-left: 250px;
+}
+
+#about p {
+  width: 225px;
+  float: left;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 50px 25px;
+}
+
+#bottom-section{
+  width: 800px;
+  height: auto;
+  clear: both;
+  margin: auto;
+  border-bottom: 2px solid lightgrey;
+}
+
+#bottom-section img{
+  width: inherit;
+  height: 450px;
+}
+
+#bottom-section h4 {
+  text-align: center;
+  font-weight: 400;
+  margin: 5px 0 50px 0;
+}
+
+#hours{
+  float: left;
+  margin: 25px 0 0 55px;
+}
+
+#hours h3 {
+  font-weight: 400;
+  text-align: center;
+  margin-top: 25px;
+  font-size: 16px;
+}
+
+#hours ul {
+  margin-top: -15px;
+}
+
+#hours ul li{
+  list-style: none;
+  line-height: 30px;
+  font-size: 16px;
+}
+
+
+.days {
+  font-weight: bold;
+}
+
+#footer-location{
+  text-align: right;
+  float: right;
+  padding: 40px 100px 0 0;
+}
+#footer-location h5{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1px;
+}
+
+#footer-location a{
+  color: darkgreen;
+}
+
+#copyright{
+  margin: auto;
+  text-align: center;
+  font-size: 12px;
+  clear: both;
+  padding-top: 40px;
+}
